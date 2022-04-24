@@ -1,10 +1,10 @@
 package main
 
 import (
-	"fmt"
+	"github.com/FoGezz/go-practice/task1"
 )
 
 //необходимо использовать код из модулей
 func main() {
-	fmt.Println("Hello world")
+	task1.PrintTime()
 }
