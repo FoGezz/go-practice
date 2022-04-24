@@ -2,9 +2,7 @@ module github.com/FoGezz/go-practice
 
 go 1.18
 
-require task1 v0.0.0
-replace task1 v0.0.0 => /task1
-
+require github.com/FoGezz/go-practice/task1 v0.0.0
 
 require (
 	github.com/beevik/ntp v0.3.0 // indirect
@@ -15,3 +13,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
 )
 
+replace github.com/FoGezz/go-practice/task1 v0.0.0 => /task1

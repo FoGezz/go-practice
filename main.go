@@ -1,7 +1,7 @@
 package main
 
 import (
-	"task1"
+	"github.com/FoGezz/go-practice/task1"
 )
 
 //необходимо использовать код из модулей
